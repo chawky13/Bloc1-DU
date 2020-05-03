@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../css/styles.css" />
+<title>La boucle for</title>
+</head>
+<body>
+<h1 id="header">La boucle for</h1>
+<div class="editor-indent" style="margin-left: 30px;">
+		<h4><span style="color: rgb(85, 85, 85); font-size: 1.23rem; font-weight: 700;">Boucle </span><span class="" style="font-size: 1.23rem; font-weight: 700; color: rgb(239, 69, 64);">For</span><span style="color: rgb(85, 85, 85); font-size: 1.23rem; font-weight: 700;"> avec </span><span class="" style="font-size: 1.23rem; font-weight: 700; color: rgb(239, 69, 64);">range()</span></h4></div><div class="editor-indent" style="margin-left: 30px;">
+		<div class="editor-indent" style="margin-left: 30px;">
+			<h2><span style="color: rgb(51, 51, 51); font-size: 13px;"></span></h2>
+			<p style=""><span style="color: rgb(51, 51, 51); font-size: 13px;"><b>Syntaxe :&nbsp;</b></span></p>
+			<p style=""><span style="color: rgb(51, 51, 51); font-size: 13px;"></span></p>
+			<pre><span style="color: rgb(51, 51, 51); font-size: 13px;"><input id="filter_generico_amdopts_fg_15883487584615" type="hidden" value="{&quot;type&quot;:&quot;codebox&quot;,&quot;language&quot;:&quot;python&quot;,&quot;allow_copy&quot;:&quot;true&quot;,&quot;AUTOID&quot;:&quot;fg_15883487584615&quot;,&quot;MOODLEPAGEID&quot;:1712,&quot;WWWROOT&quot;:&quot;https:\/\/i-sn.ovh&quot;,&quot;DATASET&quot;:false,&quot;CSSLINK&quot;:false,&quot;CSSUPLOAD&quot;:false,&quot;CSSCUSTOM&quot;:false,&quot;TEMPLATEID&quot;:3}"></input><code id="fg_15883487584615" class="python">for i in range(<b>valeur_debut</b>,<b>valeur_fin,pas</b>):<br>    instruction<br></code></span></pre>
+			<p><br></p>
+			<p><span>L’instruction <b><span class="attostylestextmarker attostylestextmarker-green" style="color: rgb(239, 69, 64);">for</span></b> est une <b>instruction</b> composée, c’est-à-dire une instruction dont l’en-tête se termine par deux-points (<span><span class="" style="color: rgb(239, 69, 64);"><b><span class="attostylestextmarker attostylestextmarker-green">:</span></b><span class="" style="color: rgb(51, 51, 51);">),</span><b>&nbsp;</b></span></span> <span class="" style="color: rgb(239, 69, 64);"></span>suivie d’un bloc indenté qui constitue le <b>corps de la boucle</b>.</span></p><p><span>La variable<b><span class="attostylestextmarker attostylestextmarker-green" style="color: rgb(239, 69, 64);">i </span></b>prendra successivement toutes les valeurs contenues dans (<b><span class="attostylestextmarker attostylestextmarker-green" style="color: rgb(239, 69, 64);">in</span></b>) la liste crée par la fonction <b>range()</b>.<span><span class="" style="color: rgb(239, 69, 64);"><b>&nbsp;</b><span class="" style="color: rgb(51, 51, 51);">L</span></span></span><span class="" style="color: rgb(51, 51, 51);">a </span>première sera&nbsp;<b><i>valeur_debut</i>.&nbsp;</b>On dit que cette variable est un <b>compteur</b> car, elle sert à numéroter les <b>itérations</b> de la boucle.&nbsp;On réalise une&nbsp;<b>itération</b>&nbsp;de la boucle à chaque fois que le corps de la boucle est exécuté.<br></span></p><p><span><span><span style="">Donc, le nombre <b>d'itérations</b> = <b><i>valeur_fin</i></b> <span class="" style="color: rgb(239, 69, 64);"><b>-</b></span> <b><i>valeur_debut</i></b>&nbsp;</span></span></span></p><p><span><span><span style="">La boucle inclut toujours&nbsp;<b><i>valeur_debut</i></b>&nbsp;et exclut&nbsp;<b><i>valeur_fin</i></b>&nbsp;pendant l'itération.<br></span></span></span></p><p><span><span><span style="">Et par conséquent, les expressions</span><b style="font-style: italic;"> valeur_debut</b><i> et </i><b style="font-style: italic;">valeur_fin</b><i>&nbsp;</i>constituent les bornes de la boucle, d'où la notion de <b>boucle bornée</b>.</span></span></p><p><span><span><b>Exemple:</b></span></span></p>
+			<div><div><div><div><pre><input id="filter_generico_amdopts_fg_158834875815807" type="hidden" value="{&quot;type&quot;:&quot;codebox&quot;,&quot;language&quot;:&quot;&quot;,&quot;allow_copy&quot;:&quot;true&quot;,&quot;AUTOID&quot;:&quot;fg_158834875815807&quot;,&quot;MOODLEPAGEID&quot;:1712,&quot;WWWROOT&quot;:&quot;https:\/\/i-sn.ovh&quot;,&quot;DATASET&quot;:false,&quot;CSSLINK&quot;:false,&quot;CSSUPLOAD&quot;:false,&quot;CSSCUSTOM&quot;:false,&quot;TEMPLATEID&quot;:3}"></input><code id="fg_158834875815807" class="">for i in range(1,4):
+ print("Eh oh !")
+print("Il y'a quelqu'un ?") <br></code></pre></div></div></div>
+				<p><b>&nbsp;<input id="filter_generico_amdopts_fg_158834875817679" type="hidden" value="{&quot;type&quot;:&quot;toggle&quot;,&quot;linktext&quot;:&quot;Tester ici l&#039;exemple. Cliquer pour masquer l&#039;\u00e9diteur&quot;,&quot;AUTOID&quot;:&quot;fg_158834875817679&quot;,&quot;MOODLEPAGEID&quot;:1712,&quot;WWWROOT&quot;:&quot;https:\/\/i-sn.ovh&quot;,&quot;DATASET&quot;:false,&quot;CSSLINK&quot;:false,&quot;CSSUPLOAD&quot;:false,&quot;CSSCUSTOM&quot;:false,&quot;TEMPLATEID&quot;:13}"></input><a href="#" id="fg_158834875817679">Tester ici l'exemple. Cliquer pour masquer l'éditeur</a>
+	<div id="fg_158834875817679_target" class="fg_158834875817679_target" style="display: none;"><br></b><b><iframe allowfullscreen="" frameborder="0" height="356" marginheight="0" marginwidth="0" src="https://trinket.io/embed/python3#.XiND1d-YWu0" width="100%"></iframe></b><b></div></b></p>
+			</div>
+			<div>
+				<div>
+					<p></p>
+				</div>
+			</div>
+			<p><b></b></p>
+			<div>
+				<div>
+					<div>
+						<div>
+							<p><span>Affichage après exécution :</span></p>
+						</div>
+					</div>
+					<p></p>
+				</div>
+			</div>
+			<div>
+				<div>
+					<p></p>
+					<div>
+						<div>
+							<pre><span><b><input id="filter_generico_amdopts_fg_15883487582864" type="hidden" value="{&quot;type&quot;:&quot;codebox&quot;,&quot;language&quot;:&quot;python&quot;,&quot;allow_copy&quot;:&quot;true&quot;,&quot;AUTOID&quot;:&quot;fg_15883487582864&quot;,&quot;MOODLEPAGEID&quot;:1712,&quot;WWWROOT&quot;:&quot;https:\/\/i-sn.ovh&quot;,&quot;DATASET&quot;:false,&quot;CSSLINK&quot;:false,&quot;CSSUPLOAD&quot;:false,&quot;CSSCUSTOM&quot;:false,&quot;TEMPLATEID&quot;:3}"></input><code id="fg_15883487582864" class="python">Oh eh !
+Oh eh !
+Oh eh !
+Il y'a quelqu'un ?<br></code></b></span></pre>
+						</div>
+					</div>
+					<p></p>
+				</div>
+			</div>
+			<p></p>
+			<p><br></p><p>Il est possible d’obtenir le même résultat sans donner la liste des valeurs avec une forme réduite de range () :&nbsp;<b>&nbsp;range(valeur_fin)&nbsp;</b>, la&nbsp;<b>valeur_debut</b>&nbsp;est implicitement mis à zéro:<br></p>
+			<p></p>
+			<p><b>Exemple :</b></p><p></p><div><div><div><div><pre><input id="filter_generico_amdopts_fg_158834875812900" type="hidden" value="{&quot;type&quot;:&quot;codebox&quot;,&quot;language&quot;:&quot;&quot;,&quot;allow_copy&quot;:&quot;true&quot;,&quot;AUTOID&quot;:&quot;fg_158834875812900&quot;,&quot;MOODLEPAGEID&quot;:1712,&quot;WWWROOT&quot;:&quot;https:\/\/i-sn.ovh&quot;,&quot;DATASET&quot;:false,&quot;CSSLINK&quot;:false,&quot;CSSUPLOAD&quot;:false,&quot;CSSCUSTOM&quot;:false,&quot;TEMPLATEID&quot;:3}"></input><code id="fg_158834875812900" class="">for i in range(3):
+ print("Eh oh !")
+print("Il y'a quelqu'un ?") <br></code></pre></div></div></div><p><b>&nbsp;<input id="filter_generico_amdopts_fg_15883487587911" type="hidden" value="{&quot;type&quot;:&quot;toggle&quot;,&quot;linktext&quot;:&quot;Tester ici par vous-m\u00eame&quot;,&quot;AUTOID&quot;:&quot;fg_15883487587911&quot;,&quot;MOODLEPAGEID&quot;:1712,&quot;WWWROOT&quot;:&quot;https:\/\/i-sn.ovh&quot;,&quot;DATASET&quot;:false,&quot;CSSLINK&quot;:false,&quot;CSSUPLOAD&quot;:false,&quot;CSSCUSTOM&quot;:false,&quot;TEMPLATEID&quot;:13}"></input><a href="#" id="fg_15883487587911">Tester ici par vous-même</a>
+	<div id="fg_15883487587911_target" class="fg_15883487587911_target" style="display: none;"><br></b><b><iframe allowfullscreen="" frameborder="0" height="356" marginheight="0" marginwidth="0" src="https://trinket.io/embed/python3#.XiND1d-YWu0" width="100%"></iframe></b><b></div></b></p></div><br><p></p></div><p style="margin-left: 30px;"><span><span style="">Pour itérer sur une séquence décroissante, on peut utiliser une forme étendue de&nbsp;</span><span style=""><b>range ()</b>&nbsp;. Celle à&nbsp;</span>trois arguments&nbsp;&nbsp;<b><span style="">range(<span><i>valeur_debut</i></span>,&nbsp;</span><span style=""><i><span>valeur_fin</span></i>,&nbsp;</span><span style=""><i><span>pas</span></i></span><span style="">).</span></b>&nbsp; Lorsqu'elle est omise, la valeur&nbsp;<span style=""><b>pas</b></span>&nbsp;est implicitement égale à 1. Cependant, elle peut être n'importe quelle valeur non nulle.&nbsp;<br></span></p><div class="editor-indent" style="margin-left: 30px;"><b>Exemple :</b></div><div class="editor-indent" style="margin-left: 30px;"><br></div><div class="editor-indent" style="margin-left: 30px;"><span class="" style="color: rgb(51, 51, 51);"><div><div><div><pre><input id="filter_generico_amdopts_fg_158834875831744" type="hidden" value="{&quot;type&quot;:&quot;codebox&quot;,&quot;language&quot;:&quot;&quot;,&quot;allow_copy&quot;:&quot;true&quot;,&quot;AUTOID&quot;:&quot;fg_158834875831744&quot;,&quot;MOODLEPAGEID&quot;:1712,&quot;WWWROOT&quot;:&quot;https:\/\/i-sn.ovh&quot;,&quot;DATASET&quot;:false,&quot;CSSLINK&quot;:false,&quot;CSSUPLOAD&quot;:false,&quot;CSSCUSTOM&quot;:false,&quot;TEMPLATEID&quot;:3}"></input><code id="fg_158834875831744" class="">for i in range(10, 0, -2):
+    print(i)<br></code></pre></div></div></div><p><b>&nbsp;<input id="filter_generico_amdopts_fg_158834875830441" type="hidden" value="{&quot;type&quot;:&quot;toggle&quot;,&quot;linktext&quot;:&quot;Tester ici par vous-m\u00eame&quot;,&quot;AUTOID&quot;:&quot;fg_158834875830441&quot;,&quot;MOODLEPAGEID&quot;:1712,&quot;WWWROOT&quot;:&quot;https:\/\/i-sn.ovh&quot;,&quot;DATASET&quot;:false,&quot;CSSLINK&quot;:false,&quot;CSSUPLOAD&quot;:false,&quot;CSSCUSTOM&quot;:false,&quot;TEMPLATEID&quot;:13}"></input><a href="#" id="fg_158834875830441">Tester ici par vous-même</a>
+	<div id="fg_158834875830441_target" class="fg_158834875830441_target" style="display: none;"><br></b><b><iframe allowfullscreen="" frameborder="0" height="356" marginheight="0" marginwidth="0" src="https://trinket.io/embed/python3#.XiND1d-YWu0" width="100%"></iframe></b><b></div></b></p></span></div></div><div class="editor-indent" style="margin-left: 30px;"><div class="editor-indent" style="margin-left: 30px;"><span class="" style=""><span style=""><div class="editor-indent" style="margin-left: 30px;"><br></div></span></span></div></div><div class="editor-indent" style="margin-left: 30px;"><div class="editor-indent" style="margin-left: 30px;"><div style=""><div style="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<p></p>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This package has been created with Moodle 3.8.2+ (Build: 20200320) (2019111802.02) http://moodle.org/, Book module version 2019111800 - https://github.com/skodak/moodle-mod_book -->
+<!-- One idea and implementation by Eloy Lafuente (stronk7) and Antonio Vicent (C) 2001-3001 -->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_v1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="MANIFEST-16c4bb57a3768588c24edd856a5187eb" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsmd_v1p2 imsmd_v1p2p2.xsd">
+  <organizations default="MOODLE-45-31">
+    <organization identifier="MOODLE-45-31" structure="hierarchical">
+      <title>La boucle bornée</title>
+        <item identifier="ITEM-45-31-1" isvisible="true" identifierref="RES-45-31-1">
+         <title>Introduction</title>
+        </item>
+        <item identifier="ITEM-45-31-2" isvisible="true" identifierref="RES-45-31-2">
+         <title>La fonction rang()</title>
+        </item>
+        <item identifier="ITEM-45-31-3" isvisible="true" identifierref="RES-45-31-3">
+         <title>La boucle for</title>
+        </item>
+        <item identifier="ITEM-45-31-4" isvisible="true" identifierref="RES-45-31-4">
+         <title>Les boucles imbriquées</title>
+        </item>
+        <item identifier="ITEM-45-31-5" isvisible="true" identifierref="RES-45-31-5">
+         <title>Boucle et chaînes de caractères</title>
+        </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-45-31-1" type="webcontent" xml:base="1/" href="index.html">
+      <file href="1/index.html" />
+      <dependency identifierref="RES-45-31-css" />
+    </resource>
+    <resource identifier="RES-45-31-2" type="webcontent" xml:base="2/" href="index.html">
+      <file href="2/index.html" />
+      <dependency identifierref="RES-45-31-css" />
+    </resource>
+    <resource identifier="RES-45-31-3" type="webcontent" xml:base="3/" href="index.html">
+      <file href="3/index.html" />
+      <dependency identifierref="RES-45-31-css" />
+    </resource>
+    <resource identifier="RES-45-31-4" type="webcontent" xml:base="4/" href="index.html">
+      <file href="4/index.html" />
+      <dependency identifierref="RES-45-31-css" />
+    </resource>
+    <resource identifier="RES-45-31-5" type="webcontent" xml:base="5/" href="index.html">
+      <file href="5/index.html" />
+      <dependency identifierref="RES-45-31-css" />
+    </resource>
+    <resource identifier="RES-45-31-css" type="webcontent" xml:base="css/" href="styles.css">
+      <file href="css/styles.css" />
+    </resource>
+  </resources>
+</manifest>
